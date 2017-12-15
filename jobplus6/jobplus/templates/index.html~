@@ -1,0 +1,12 @@
+<! DOCTYPE html>
+<html lang="zh-CN">
+<head>
+   <meta charset = "UTF-8" />
+   <title> Index</title>
+</head>
+<body>
+   {% for jobs in jobs %}
+    {{ job.jobname }}
+   {% endfor %}
+</body>
+</html>
