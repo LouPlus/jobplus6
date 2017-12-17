@@ -1,3 +1,0 @@
-from .front import front
-
-blueprint = [front]
