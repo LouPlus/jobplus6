@@ -1,12 +1,13 @@
 <! DOCTYPE html>
 <html lang="zh-CN">
+{% extends "base.html" %}
+
 <head>
    <meta charset = "UTF-8" />
-   <title> Index</title>
+   {% block title %}Index{% endblock %}
 </head>
-<body>
-   {% for jobs in jobs %}
-    {{ job.jobname }}
-   {% endfor %}
-</body>
+   {% block body %}
+       <h1>Home</h1>
+   {% endblock %}  
+
 </html>
